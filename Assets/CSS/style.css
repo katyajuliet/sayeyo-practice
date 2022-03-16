@@ -19,6 +19,10 @@ body {
     font-size: 48px;
     color: white;
   }
+
+  .header img {
+    display: inline-block;
+  }
   
   .header h1 .yo {
     color: rgb(189, 61, 248);
@@ -63,16 +67,16 @@ body {
     text-align: left; padding: 100px;
 }
 .hero h2 {
-    font-size: 120px;
+    font-size: 140px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    padding: 15px;
+    padding: 10px;
 }
 .hero p {
-    font-size: 48px;
+    font-size: 42px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    padding: 15px;
+    padding: 10px;
 }
 .float-left {
 float: left;
@@ -110,10 +114,15 @@ margin-right: 25px;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    padding: 20px;
   }
   .intro h3 {
 font-size: 48px;
 color: rgb(189, 61, 248);
+border-bottom: 3px solid;
+  border-color: white;
+  display: inline-block;
+  padding: 10px;
   }
   .intro h4 {
     font-size: 28px;
